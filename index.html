@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Talk Groot</title>
+    <style>
+        body{
+            margin: auto;
+        }
+        textarea{
+            width: 80%;
+            display: block;
+            height: 10vh;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        #output{
+            border:1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        h1, h2{
+            background-color: yellowgreen;
+            margin: 0px;
+            padding: 20px;
+            font-family: monospace;
+            text-align: center;
+        }
+        #btn-translate{
+            margin: 20px;
+            background-color: yellowgreen;
+            border-radius: 2mm;
+            padding: 20px;
+            font-family: monospace;
+            font-weight: bolder;
+            font-size: large;
+            cursor: pointer;
+        }
+        footer{
+            background-color:yellowgreen;
+            padding: 20px;
+            font-family:monospace;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Talk Groot</h1>
+
+    <textarea id="txt-input" placeholder="Enter your English text here"></textarea>
+    <button id="btn-translate">Translate</button>
+    <h2>Output Groot Text 👇</h2>
+    <div id="output"></div>
+    <footer>Created by carrisunrio 😎 </footer>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
